@@ -6,7 +6,6 @@
 .divider {
   border-bottom: solid grey 1px;
 }
-
 .container:last-child > div {
   display: none;
 }
