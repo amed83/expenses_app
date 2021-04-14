@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+}
+.divider {
+  border-bottom: solid grey 1px;
+}
+
+.container:last-child > div {
+  display: none;
+}
